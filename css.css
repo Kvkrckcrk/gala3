@@ -1,0 +1,80 @@
+#div1{
+    margin: 0 auto;
+    text-align: center;
+}
+#p1 {
+    font-size: xx-large;
+    color: blueviolet;
+    font-weight: bold; 
+    background-color: beige;
+    }
+#p2 {
+    font-size: medium;
+    font-family: italic;
+    background-color: bisque;
+    }
+.backgrounde{
+    font-size: xxx-large;
+    padding: 150px;
+    color:blueviolet ;
+    background-image: url('pics/pic4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1400px;
+    position: relative;
+}
+.glaasse{
+    background:white(255,255,255,0.2);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+.oldmon{
+    color: white;
+}
+#footer{
+    background-color:color-mix(in lab, black 60%, grey 30%);
+    padding: 50px;
+    font-size: 20px;
+    }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a :hover{
+    text-decoration:underline;
+    color: gold;
+}
+#linko{
+    text-decoration: none;
+    color:inherit;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#linko:hover{
+    text-decoration: underline;
+    color:purple;
+}
+#p4{
+    background-image: url('pics/pic3.jpeg');
+    background-size: 800px;
+    background-position: center;
+    margin: 0px;
+    padding: auto;
+}
+#p5{
+    background-image: url('pics/pic8.jpg');
+    background-size: 1350px;
+    background-attachment: fixed;
+}
+li{
+    display: inline-block;
+    font-size: x-large;
+    color: purple;
+    font-style: bold;
+}
+.galo:hover{
+    color: gold;
+    font-style: italic;
+}
